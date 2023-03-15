@@ -4,49 +4,33 @@ CONFIG_TARGET_bcm53xx_generic_DEVICE_phicomm_k3=y
 CONFIG_PACKAGE_6in4=y
 CONFIG_PACKAGE_6rd=y
 CONFIG_PACKAGE_6to4=y
-# CONFIG_PACKAGE_UnblockNeteaseMusic-Go is not set
 CONFIG_PACKAGE_autocore-arm=y
-CONFIG_PACKAGE_boost=y
-CONFIG_PACKAGE_boost-program_options=y
-CONFIG_PACKAGE_boost-system=y
-CONFIG_PACKAGE_chinadns-ng=y
-CONFIG_PACKAGE_coreutils-nohup=y
-# CONFIG_PACKAGE_ddns-scripts_cloudflare.com-v4=y
-CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
 CONFIG_PACKAGE_ethtool=y
-CONFIG_PACKAGE_haproxy=y
+CONFIG_PACKAGE_igmpproxy=y
 CONFIG_PACKAGE_ip6tables=y
 CONFIG_PACKAGE_ipv6helper=y
+CONFIG_PACKAGE_kmod-ip6tables=y
 CONFIG_PACKAGE_kmod-ipt-nat6=y
 CONFIG_PACKAGE_kmod-iptunnel=y
 CONFIG_PACKAGE_kmod-iptunnel4=y
 # CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
+CONFIG_PACKAGE_kmod-nf-ipt6=y
+CONFIG_PACKAGE_kmod-nf-log6=y
 CONFIG_PACKAGE_kmod-nf-nat6=y
+CONFIG_PACKAGE_kmod-nf-reject6=y
 CONFIG_PACKAGE_kmod-sit=y
-CONFIG_PACKAGE_libatomic=y
-CONFIG_PACKAGE_libltdl=y
-CONFIG_PACKAGE_liblua5.3=y
-CONFIG_PACKAGE_libstdcpp=y
 # CONFIG_PACKAGE_libuuid is not set
+# CONFIG_PACKAGE_lua-neturl is not set
 # CONFIG_PACKAGE_luci-app-accesscontrol is not set
-# CONFIG_PACKAGE_luci-app-adguardhome_INCLUDE_binary is not set
 # CONFIG_PACKAGE_luci-app-arpbind is not set
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs is not set
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk is not set
 CONFIG_PACKAGE_luci-app-k3screenctrl=y
 # CONFIG_PACKAGE_luci-app-nlbwmon is not set
-# CONFIG_PACKAGE_luci-app-passwall=y
-# CONFIG_PACKAGE_luci-app-ramfree is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Server is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Libev_Server is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Simple_Obfs is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Xray is not set
-# CONFIG_PACKAGE_luci-app-unblockmusic is not set
+CONFIG_PACKAGE_luci-app-udpxy=y
 # CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
 # CONFIG_PACKAGE_luci-app-upnp is not set
 # CONFIG_PACKAGE_luci-app-vlmcsd is not set
@@ -55,28 +39,18 @@ CONFIG_PACKAGE_luci-app-k3screenctrl=y
 # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan is not set
 # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray is not set
 # CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray_plugin is not set
-CONFIG_PACKAGE_luci-compat=y
-# CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-udpxy-zh-cn=y
+# CONFIG_PACKAGE_luci-lib-ipkg is not set
 CONFIG_PACKAGE_luci-proto-ipv6=y
 # CONFIG_PACKAGE_miniupnpd is not set
 # CONFIG_PACKAGE_nlbwmon is not set
-CONFIG_PACKAGE_igmpproxy=y
 CONFIG_PACKAGE_odhcp6c=y
 CONFIG_PACKAGE_odhcp6c_ext_cer_id=0
 CONFIG_PACKAGE_odhcpd-ipv6only=y
 CONFIG_PACKAGE_odhcpd_ipv6only_ext_cer_id=0
-CONFIG_PACKAGE_luci-app-udpxy=y
-CONFIG_PACKAGE_luci-i18n-udpxy-zh-cn=y
-CONFIG_PACKAGE_udpxy=y
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-check is not set
 # CONFIG_PACKAGE_shadowsocksr-libev-ssr-server is not set
-# CONFIG_PACKAGE_trojan-plus=y
-CONFIG_PACKAGE_unzip=y
-# CONFIG_PACKAGE_v2ray-core=y
-# CONFIG_PACKAGE_v2ray-plugin=y
+CONFIG_PACKAGE_udpxy=y
 # CONFIG_PACKAGE_vlmcsd is not set
 # CONFIG_PACKAGE_vsftpd-alt is not set
-CONFIG_boost-compile-visibility-hidden=y
-CONFIG_boost-runtime-shared=y
-CONFIG_boost-static-and-shared-libs=y
-CONFIG_boost-variant-release=y
+CONFIG_PACKAGE_chinadns-ng=y
