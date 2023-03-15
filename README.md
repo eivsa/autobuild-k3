@@ -1,6 +1,6 @@
-
+ 编译K3固件养老专用
 <details>
-  编译K3固件养老专用
+ 
 <summary>🆙点击查看更新说明</summary>
 <br>
 
