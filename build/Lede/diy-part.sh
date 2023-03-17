@@ -84,6 +84,9 @@ rm -rf openwrt-x86-64-generic-kernel.bin
 rm -rf openwrt-x86-64-generic.manifest
 rm -rf openwrt-x86-64-generic-squashfs-rootfs.img.gz
 rm -rf sha256sums
+rm -rf ipk.tar.gz
+rm -rf packages
+rm -rf profiles.json
 rm -rf version.buildinfo
 EOF
 
